@@ -6,7 +6,7 @@ fun main() {
 
     //  testing of arrayof
     val myFile = "test.txt"
-    val array1 = arrayListOf<String>("Maria", "\nJoana", "\nPaua", "\nAline")
+    val array1 = arrayListOf<String>("Maria", "Joana", "Paua", "Aline")
 
     println(array1[0])
 
