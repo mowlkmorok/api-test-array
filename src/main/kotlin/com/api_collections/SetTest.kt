@@ -21,6 +21,7 @@ fun main(){
     }
     println("========================================")
 
+    // Here we'll to subtract equals values
     val subtractValue = developer1
         .subtract(developer2)
         .forEach {
