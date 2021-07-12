@@ -10,13 +10,18 @@ fun main() {
     // Instantiated a repository
     val repository = Repository<Developers>()
 
+
+    println("================================================")
     // Putting value and your id
     repository.create(joana.name, joana)
     repository.create(paula.name, paula)
     repository.create(tatyana.name, tatyana)
 
+    // Removing tatyana value
+    repository.remove(tatyana.name)
 
-    println(repository.findById(joana.name))
+    //=========================================================
+    repository.showAll().forEach{ println(it) }
 
 
 }
